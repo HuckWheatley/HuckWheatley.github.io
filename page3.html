@@ -1,51 +1,10 @@
 <html>
-<title> My Projects </title>
-
-
-<body>
-<a href="./index.html">Page 1</a>
-  <a href="./page2.html">Page 2</a>
-    <a href="./page3.html">Page 3</a>
-
-<h1>My Projects</h1>
-  <p>----------------</p>
-  <p>Number Guessing Game</p>
-      <div class="form">
-        <label for="guessField">Enter a guess 1-100:</label>
-        <input type="number" id="guessField" class="guessField" min="1" max="100">
-        <button id="submitGuess" class="guessSubmit">Submit guess</button>
-    </div>
-  <script>
-  
-const button = document.getElementById('submitGuess');
-const value = document.getElementById('guessField')
-    button.addEventListener('click', function() {
-      console.log('my code works')
-      console.log(document.getElementById('guessField').value)
-      var random1to100 = Math.floor(Math.random() * 10 + 1)
-      console.log(random1to100)
-     if (random1to100 = document.getElementById('guessField').value) {
-      console.log('My code works SOOOO WELL')
-      
-     }
-      
-      
-    })
-    
-  </script>
-            
-    <div class="resultParas">
-        <p class="lastResult"></p>
-        <p class="lowOrHi"></p>
-        <p class="attempts"></p>
-    </div>
-
-  
-
-
-    <button id="resetButton" style="display: none;">Play again</button>
-  
-</body>
+<title> Page 3 </title>
+  <body>
+      <a href="./index.html">Page 1</a>
+      <a href="./page2.html">Page 2</a>
+      <a href="./page3.html">Page 3</a>
+  </body>
 
   
 </html>
