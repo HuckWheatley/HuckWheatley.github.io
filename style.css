@@ -1,7 +1,52 @@
+body {
+    display: block;
+}
+
 .circle-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 200px;
+    width: 200px;
     background-color: lightskyblue;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-10%) translateX(35%);
+    border-radius: 50%;
 }
+
+.vertical-text {
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(550%) rotate(-90deg);
+    transform-origin: left center;
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+
+
+.imgofme img {
+    height: 320px;
+    width: 240px;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-33%) translateX(21%);
+}
+
+.white-rectangle {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 30px;
+    transform: translateY(calc(-33% + 193px));
+    background-color: white;
+}
+
+
