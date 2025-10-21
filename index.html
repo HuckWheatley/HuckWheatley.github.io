@@ -1,6 +1,10 @@
 <html>
-  <title> Page 1 </title>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Page 1</title>
+  </head>
   <body style="background-color: rgb(32, 32, 37);">
+
 
       <div style="display: flex; align-items: center; padding: 20px; gap: 10px;">
         <div style="width: 15px; height: 15px; background-color: white;"></div>
@@ -12,6 +16,27 @@
         <a style="color: white; font-weight: bold; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-decoration: none; border-bottom: 3px solid transparent;" onmouseover="this.style.borderBottom='3px solid white'" onmouseout="this.style.borderBottom='3px solid transparent'" href="./page2.html">PAGE 2</a>
         <a style="color: white; font-weight: bold; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-decoration: none; border-bottom: 3px solid transparent;" onmouseover="this.style.borderBottom='3px solid white'" onmouseout="this.style.borderBottom='3px solid transparent'" href="./page3.html">PAGE 3</a>
       </div>
+
+      <div style="color: white; font-family: Arial, sans-serif; padding: 20px;">
+        <h1>Welcome To My Website<span style="color: lightskyblue;" id="dots">.</span></h1>
+        <script>
+          const dots = document.getElementById('dots');
+          let count = 1;
+          setInterval(() => {
+            count = (count % 3) + 1;
+            dots.textContent = '.'.repeat(count);
+            }, 500);
+          </script>
+          <p> This website is a example of my basic coding ability and understanding in of the process of uploading code on github. Use the navigation links above to explore other pages, or look below, and learn more about me.</p>
+          </div>
+
+        <div class="vertical-text">HUCK WHEATLEY</div>
+
+        <div class="circle-container"></div>
+        <div class="imgofme"> 
+          <img src="imgofme.png" alt="missing">
+        </div>
+
 
    </body>
 </html>
