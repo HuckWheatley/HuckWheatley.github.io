@@ -9,7 +9,6 @@ body {
     height: 200px;
     width: 200px;
     background-color: lightskyblue;
-    position: fixed;
     left: 0;
     top: 50%;
     transform: translateY(-10%) translateX(35%);
@@ -17,14 +16,13 @@ body {
 }
 
 .vertical-text {
-    position: fixed;
     left: 10px;
     top: 50%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    transform: translateY(550%) rotate(-90deg);
+    transform: translateY(600%) translateX(3%) rotate(-90deg);
     transform-origin: left center;
-    font-size: 30px;
+    font-size: 26px;
     white-space: nowrap;
 }
 
@@ -33,14 +31,12 @@ body {
 .imgofme img {
     height: 320px;
     width: 240px;
-    position: fixed;
     left: 0;
     top: 50%;
-    transform: translateY(-33%) translateX(21%);
+    transform: translateY(-105%) translateX(21%);
 }
 
 .white-rectangle {
-    position: fixed;
     left: 0;
     top: 50%;
     width: 100%;
@@ -49,4 +45,12 @@ body {
     background-color: white;
 }
 
-
+.About-Me-Text {
+    position: absolute;
+    left: calc(120px + 21%);
+    top: 60%;
+    transform: translateY(-105%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
